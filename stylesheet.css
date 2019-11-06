@@ -225,24 +225,37 @@ table {
 }
 
 #Author footer {
-  margin-top: 110px;
+  position: absolute;
+  bottom: 0;
 }
 
 #Score footer {
-  margin-top: 350px;
+  position: absolute;
+  bottom: 0;
 }
+
+.insta {
+  background-color: #CF2E92;
+  margin-left: 2vw;
+  
+  
+}
+
+
 
 @media screen and (max-width:600px) {
   body {
-    font-size: 3.5vw;
+    
+    font-family: fantasy;
+    font-size: 4vw;
   }
   
   h1 {
-    font-size: 7.2vw;
+    font-size: 7.6vw;
   }
   
   h2 {
-    font-size: 6vw;
+    font-size: 7vw;
   }
   
   header {
@@ -267,11 +280,13 @@ table {
   }
   
   #Score footer {
-    margin-top: 160vw;
+    position: absolute;
+    bottom: 0;
   }
   
   #Event footer {
-    margin-top: 72vw;
+    position: absolute;
+    bottom: 0;
   }
   
   #Author footer {
@@ -280,10 +295,6 @@ table {
   
   #Event h3 {
     display: inline-block;
-  }
-  
-  .profile-img {
-    float: right;
   }
   
   .profile-txt p {
@@ -304,9 +315,9 @@ table {
   margin-top: 15vw;
   }
 
-  .last {
-  display: inline;
-  float: left;
+  #Author .container {
+    display: inline-block;
   }
 
 }
+  
