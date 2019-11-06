@@ -313,6 +313,12 @@ table {
   #Author .container {
     display: inline-block;
   }
-
+.header {
+  background-color :red;
+  }
+  
+.copy-container h3 {
+  color: red;
+  }
 }
   
