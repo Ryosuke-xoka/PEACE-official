@@ -177,11 +177,7 @@ small {
   font-weight: bold;
 }
 
-.profile-img {
-  width: 200px;
-  padding-top: 40px;
-  padding-left: 50px;
-}
+
 
 .profile-txt {
   width: 525px;
@@ -190,16 +186,7 @@ small {
   float: left;
 }
 
-.clearfix:after {
-  content: "";
-  clear: both;
-  display: block;
-}
 
-.last {
-  margin-top: 50px;
-  margin-left: 20px;
-}
 
 th {
   width: 200px;
@@ -224,6 +211,7 @@ table {
   text-indent: 0;
 }
 
+
 #Score footer {
   position: absolute;
   bottom: 0;
@@ -232,11 +220,12 @@ table {
 .insta {
   background-color: #CF2E92;
   margin-left: 2vw;
-  
-  
 }
 
-
+#Author container {
+  position: absolute;
+  bottom: 0;
+}
 
 @media screen and (max-width:600px) {
   body {
@@ -271,7 +260,7 @@ table {
   }
   
   #Home footer {
-    margin-top: 58vw;
+    margin-top: 59vw;
   }
   
   #Score footer {
@@ -292,10 +281,7 @@ table {
   #Event h3 {
     display: inline-block;
   }
-  
-  .profile-txt p {
-    width: 100%;
-  }
+ 
   
   .XXX {
     margin-top: 20vw;
@@ -303,7 +289,6 @@ table {
 
   #Author p {
   margin-top: 40vw;
-  width: 80vw;
   text-align: center;
   }
 
@@ -314,12 +299,8 @@ table {
   #Author .container {
     display: inline-block;
   }
-.header {
-  background-color :red;
-  }
-  
-.copy-container h3 {
-  color: red;
-  }
+
 }
+  
+  
   
