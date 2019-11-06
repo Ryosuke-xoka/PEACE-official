@@ -285,7 +285,8 @@ table {
   }
   
   #Author footer {
-    margin-top: 100vw;
+    position: absolute;
+    bottom: 0;
   }
   
   #Event h3 {
